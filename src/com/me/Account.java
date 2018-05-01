@@ -7,9 +7,14 @@ import java.util.ArrayList;
 public class Account {
 
     //step 2 variables / fields
-    public String accountName;
-    public int balance = 0;
-    public ArrayList<Integer> transactions;
+//    public String accountName;
+//    public int balance = 0;
+//    public ArrayList<Integer> transactions;
+
+    //step 11 variables / fields to private
+    private String accountName;
+    private int balance = 0;
+    private ArrayList<Integer> transactions;
 
     //step 3 constructor (for just accountName)
     public Account(String accountName) {

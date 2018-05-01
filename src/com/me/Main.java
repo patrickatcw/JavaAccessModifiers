@@ -13,14 +13,16 @@ public class Main {
         patsAccount.withdraw(1000);
         patsAccount.deposit(2000);
         patsAccount.calculateBalance();
-        patsAccount.balance = 100000;  //not good, hackers!
+        //patsAccount.balance = 100000;  //not good, hackers! step 11 fixes this
 
         System.out.println("Balance on the account is " + patsAccount.getBalance());
         //run
-        patsAccount.transactions.add(4500); //a check for real amount
+        //patsAccount.transactions.add(4500); //a check for real amount, step 11 fixes
         patsAccount.calculateBalance();
         //run
         //this can all be fixed by changing variables in Account class to private
+
+        //step 11 in Account class change variables in step 2 to private
 
 
     }
